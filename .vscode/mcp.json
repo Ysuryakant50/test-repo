@@ -1,0 +1,13 @@
+{
+  "servers": {
+    "copilot-dev-agent": {
+      "type": "stdio",
+      "command": "python3",
+      "args": ["/Users/surya/Desktop/copilot-dev-agent/mcp/server.py"],
+      "cwd": "/Users/surya/Desktop/copilot-dev-agent",
+      "env": {
+        "PYTHONPATH": "/Users/surya/Desktop/copilot-dev-agent"
+      }
+    }
+  }
+}
